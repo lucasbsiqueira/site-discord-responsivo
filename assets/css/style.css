@@ -1,0 +1,452 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;600;800&family=Roboto:wght@100&display=swap");
+
+.header-background {
+  background: url("/assets/images/header-content.png"),
+    lightgray 50% / cover no-repeat;
+  background-size: cover;
+  height: 459px;
+  display: flex;
+  justify-content: center;
+}
+
+#header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+#header-title {
+  color: #fff;
+  text-align: center;
+  font-family: Luckiest Guy;
+  font-size: 56px;
+  font-style: normal;
+  line-height: normal;
+  width: 313px;
+}
+
+#header-bottom {
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  width: 757px;
+}
+
+.buttons {
+  width: 502px;
+  height: 44px;
+  gap: 16px;
+}
+
+#buttom-01 {
+  width: 205px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background: #fff;
+  color: #23272a;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#buttom-02 {
+  width: 281px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background: #23272a;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#section-01 {
+  height: 448px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+#subsection-01 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#section-image-01 {
+  background: url(/assets/images/Section\ Image-01.png),
+    white 50% / cover no-repeat;
+  width: 607px;
+  height: 394px;
+}
+
+#section-text-01 {
+  width: 348px;
+  height: 374px;
+  flex-shrink: 0;
+}
+
+#section-02 {
+  height: 448px;
+  background: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+#subsection-02 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-image-02 {
+  background: url(/assets/images/Section\ Image-02.png),
+    #f6f6f6 50% / cover no-repeat;
+  width: 607px;
+  height: 394px;
+}
+
+#section-text-02 {
+  width: 351px;
+  height: 212px;
+  flex-shrink: 0;
+}
+
+#section-03 {
+  background: rgba(255 255 255 1);
+  height: 448px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+#subsection-03 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-image-03 {
+  background: url(/assets/images/Section\ Image-03.png),
+    white 50% / cover no-repeat;
+  width: 607px;
+  height: 394px;
+}
+
+#section-text-03 {
+  width: 351px;
+  height: 234px;
+  flex-shrink: 0;
+}
+
+#section-04 {
+  background: rgba(246, 246, 246, 1);
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+#section-04 #section-text {
+  width: 802px;
+}
+
+#section-image-04 {
+  background: url(/assets/images/Section\ Image-04.png),
+    #f6f6f6 50% / cover no-repeat;
+  width: 784px;
+  height: 508px;
+}
+
+#text-title {
+  color: #23272a;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+#section-text {
+  color: #23272a;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 16px;
+}
+
+footer {
+  display: flex;
+  height: 134px;
+  padding: 35px 0px 36px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: url(/assets/images/svgexport-15\ 1.png) center rgba(35, 39, 42, 1)
+    no-repeat;
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    width: 428px;
+    height: 505px;
+  }
+
+  .header-background {
+    display: flex;
+    align-items: center;
+    background: url(/assets/images/Header\ Background.png),
+      lightgray / cover no-repeat;
+    background-position: center;
+    width: 428px;
+    height: 506px;
+    gap: 0px;
+    padding: 0px;
+  }
+
+  #header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 500px;
+    padding: 0px 24px;
+    gap: 16px;
+  }
+
+  #header-title {
+    color: #fff;
+    font-family: Luckiest Guy;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 278px;
+    height: 64px;
+    text-align: left;
+  }
+
+  #header-bottom {
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 381px;
+    height: 132px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .buttons #buttom-01 {
+    width: 381px;
+    height: 54px;
+    flex-shrink: 0;
+  }
+
+  .buttons #buttom-02 {
+    width: 381px;
+    height: 54px;
+    flex-shrink: 0;
+  }
+
+  #section-01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 573px;
+  }
+
+  #subsection-01 {
+    display: flex;
+    width: 428px;
+    padding: 40px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 27px;
+  }
+
+  #section-image-01 {
+    background: url(/assets/images/Section\ Image\ 01-2.png),
+      white -10.336px 0px / 102.493% 100% no-repeat;
+    width: 379px;
+    height: 252px;
+  }
+
+  #section-text-01 {
+    display: flex;
+    width: 378px;
+    height: 148px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 27px;
+  }
+
+  #text-title {
+    width: 370px;
+    color: #23272a;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  #section-text {
+    color: #23272a;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px;
+  }
+
+  #section-02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 507px;
+  }
+
+  #subsection-02 {
+    display: flex;
+    width: 428px;
+    padding: 40px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 27px;
+  }
+
+  #section-text-02 {
+    display: flex;
+    width: 378px;
+    height: 148px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 27px;
+  }
+
+  #section-image-02 {
+    background: url(/assets/images/Section\ Image\ 02-2.png),
+      #f6f6f6 100% no-repeat;
+    width: 379px;
+    height: 252px;
+  }
+
+  #section-03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 507px;
+  }
+
+  #subsection-03 {
+    display: flex;
+    width: 428px;
+    padding: 40px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 27px;
+  }
+
+  #section-text-03 {
+    display: flex;
+    width: 378px;
+    height: 148px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 27px;
+  }
+
+  #section-image-03 {
+    background: url(/assets/images/Section\ Image\ 03-2.png),
+      white 100% no-repeat;
+    width: 379px;
+    height: 252px;
+  }
+
+  #section-04 {
+    display: flex;
+    width: 428px;
+    padding: 40px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 27px;
+  }
+
+  #section-image-04 {
+    background: url(/assets/images/Section\ Image\ 04-2.png),
+      #f6f6f6 50% / cover no-repeat;
+    width: 379px;
+    height: 252px;
+  }
+
+  #section-04 #text-title {
+    width: 378px;
+    color: #23272a;
+    font-family: Luckiest Guy;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  #section-04 #section-text {
+    width: 378px;
+    color: #23272a;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  footer {
+    display: flex;
+    width: 429px;
+    height: 140px;
+    padding: 44px 134px 51px 133px;
+    justify-content: center;
+    align-items: center;
+    background: url(/assets/images/svgexport-15\ 1-2.png) center
+      rgba(35, 39, 42, 1) no-repeat;
+  }
+}
