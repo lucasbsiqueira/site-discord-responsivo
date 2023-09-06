@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;600;800&family=Roboto:wght@100&display=swap");
 
 .header-background {
-  background: url("/assets/images/header-content.png"),
+  background: url("../images/header-content.png"),
     lightgray 50% / cover no-repeat;
   background-size: cover;
   height: 459px;
@@ -89,8 +89,7 @@
 }
 
 #section-image-01 {
-  background: url(/assets/images/Section-Image-01.png),
-    white 50% / cover no-repeat;
+  background: url(../images/Section-Image-01.png), white 50% / cover no-repeat;
   width: 607px;
   height: 394px;
 }
@@ -118,8 +117,7 @@
 }
 
 #section-image-02 {
-  background: url(/assets/images/Section-Image-02.png),
-    #f6f6f6 50% / cover no-repeat;
+  background: url(../images/Section-Image-02.png), #f6f6f6 50% / cover no-repeat;
   width: 607px;
   height: 394px;
 }
@@ -147,8 +145,7 @@
 }
 
 #section-image-03 {
-  background: url(/assets/images/Section-Image-03.png),
-    white 50% / cover no-repeat;
+  background: url(../images/Section-Image-03.png), white 50% / cover no-repeat;
   width: 607px;
   height: 394px;
 }
@@ -174,8 +171,7 @@
 }
 
 #section-image-04 {
-  background: url(/assets/images/Section-Image-04.png),
-    #f6f6f6 50% / cover no-repeat;
+  background: url(../images/Section-Image-04.png), #f6f6f6 50% / cover no-repeat;
   width: 784px;
   height: 508px;
 }
@@ -206,7 +202,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  background: url(/assets/images/svgexport-15-1.png) center rgba(35, 39, 42, 1)
+  background: url(../images/svgexport-15-1.png) center rgba(35, 39, 42, 1)
     no-repeat;
 }
 
@@ -219,7 +215,7 @@ footer {
   .header-background {
     display: flex;
     align-items: center;
-    background: url(/assets/images/Header-Background.png),
+    background: url(../images/Header-Background.png),
       lightgray / cover no-repeat;
     background-position: center;
     width: 428px;
@@ -298,7 +294,7 @@ footer {
   }
 
   #section-image-01 {
-    background: url(/assets/images/Section-Image-01-2.png),
+    background: url(../images/Section-Image-01-2.png),
       white -10.336px 0px / 102.493% 100% no-repeat;
     width: 379px;
     height: 252px;
@@ -362,8 +358,7 @@ footer {
   }
 
   #section-image-02 {
-    background: url(/assets/images/Section-Image-02-2.png),
-      #f6f6f6 100% no-repeat;
+    background: url(../images/Section-Image-02-2.png), #f6f6f6 100% no-repeat;
     width: 379px;
     height: 252px;
   }
@@ -396,7 +391,7 @@ footer {
   }
 
   #section-image-03 {
-    background: url(/assets/images/Section-Image-03-2.png), white 100% no-repeat;
+    background: url(../images/Section-Image-03-2.png), white 100% no-repeat;
     width: 379px;
     height: 252px;
   }
@@ -412,7 +407,7 @@ footer {
   }
 
   #section-image-04 {
-    background: url(/assets/images/Section-Image-04-2.png),
+    background: url(../images/Section-Image-04-2.png),
       #f6f6f6 50% / cover no-repeat;
     width: 379px;
     height: 252px;
@@ -444,7 +439,7 @@ footer {
     height: 140px;
     justify-content: center;
     align-items: center;
-    background: url(/assets/images/svgexport-15-1-2.png) center
-      rgba(35, 39, 42, 1) no-repeat;
+    background: url(../images/svgexport-15-1-2.png) center rgba(35, 39, 42, 1)
+      no-repeat;
   }
 }
